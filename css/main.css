@@ -102,8 +102,8 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
   color: #fff;
@@ -125,15 +125,25 @@ main {
 header,
 footer,
 main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
 
 .flex-container {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 
 }
 
 .flex-items {
+  align-items: center;
   color: #fff;
+  display: flex;
+  justify-content: center;
   line-height: 1.5em;
   font-size: 1.6em;
   background-color: #f16059;
